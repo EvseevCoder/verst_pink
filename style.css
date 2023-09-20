@@ -44,7 +44,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 100vh;
+    height: 853px;
 
     position: relative;
 }
@@ -136,6 +136,6 @@ header {
     position: absolute;
     width: 1050px;
 
-    left: 200px;
+    right: 0px;
     bottom: 0;
 }
