@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Light 300 */
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('./fonts/OpenSans-Light.eot');
+    src: url('./fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/OpenSans-Light.woff') format('woff'),
+    url('./fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Regular 400 */
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('./fonts/OpenSans-Regular.eot');
+    src: url('./fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/OpenSans-Regular.woff') format('woff'),
+    url('./fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Bold 700 */
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('./fonts/OpenSans-Bold.eot');
+    src: url('./fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/OpenSans-Bold.woff') format('woff'),
+    url('./fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open-Sans';
+}
+
+.sec_1{
+    background-image: url('./images/desc/back-desktop1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+
+header {
+    width: 100vw;
+    height: 110px;
+
+    background-color: #0000004d;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 27px;
+    margin-left: 130px;
+}
+
+.navs {
+    display: flex;
+    gap: 78px;
+
+    padding: 48px 0;
+    margin-right: 130px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.look-at {
+    width: 300px;
+    height: 500px;
+
+    /* background-color: rgba(148, 40, 40, 0.6); */
+
+    margin-top: 114px;
+    margin-left: 130px;
+}
+
+.look-at__text {
+    color: white;
+    font-family: 'Open-Sans';
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+
+    margin-bottom: 51px;
+}
+
+.download {
+    height: 56px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    
+    border: 3px solid #FFF;
+    border-radius: 29px;
+
+    line-height: 56px;
+    margin-bottom: 67px;
+}
+
+.It3icons {
+    display: flex;
+    justify-content: center;
+}
+.It3icons__1 {
+    margin-right: 34px;
+}
+.It3icons__2 {
+    margin-right: 37px;
+}
+
+.dostup {
+    margin-top: 61px;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+
+    text-align: center;
+}
+
+.hand img {
+    position: absolute;
+    width: 1050px;
+
+    left: 200px;
+    bottom: 0;
+}
