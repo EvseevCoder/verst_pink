@@ -471,9 +471,10 @@ header {
     position: relative;
 }
 
-.map img {
+.map iframe {
     width: 100vw;
-    height: auto;
+    height: 502px;
+    /* height: auto; */
 }
 
 .triangle_map {
