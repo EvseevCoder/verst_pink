@@ -326,7 +326,7 @@ header {
 
 .sec_4 {
     position: relative;
-    height: 500px;
+    height: 534px;
 }
 
 .grey_back2 {
@@ -340,7 +340,7 @@ header {
 	height: 0px;
 
 	border-bottom: 100px solid #F2F2F2;
-	border-left: 100vw solid transparent;;
+	border-left: 100vw solid transparent;
 }
 
 .cub_grey2 {
@@ -351,7 +351,7 @@ header {
 }
 
 .block-table{
-    padding-top: 198px;
+    padding-top: 161px;
     width: 940px;
     margin: 0 auto;
 }
@@ -427,4 +427,102 @@ header {
     color: #283645;
     font-size: 18px;
     font-weight: 400;
+}
+
+.quests {
+    margin: 74px auto;
+    width: 462px;
+    color: #283645;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+
+    margin-bottom: 61px;
+}
+.contacts {
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contacts__item h3 {
+    color: #283645;
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-bottom: 34px;
+}
+
+.contacts__item p {
+    color: #D22856;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sec_6 {
+    position: relative;
+}
+
+.map img {
+    width: 100vw;
+    height: auto;
+}
+
+.triangle_map {
+    position: absolute;
+
+    border: 50vw solid transparent;
+    border-bottom: 0;
+    border-top: 100px solid rgb(255, 255, 255);
+}
+
+footer {
+    width: auto;
+    height: 197px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2 {
+    width: 147;
+    margin-top: 74px;
+    margin-left: 130px;
+}
+
+.smm img {
+    width: 48px;
+    margin-top: 74px;
+}
+
+.develop {
+    display: flex;
+    gap: 13px;
+
+    color: #283645;
+    font-size: 18px;
+    font-weight: 400;
+    flex-direction: row;
+
+    margin-right: 130px;
+}
+
+.develop img {
+    width: 27px;
+    height: 34px;
+
+    margin-top: 81px;
+}
+
+.develop p {
+    margin-top: 90px;
+    line-height: 13px;
 }
