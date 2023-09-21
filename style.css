@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
 }
 /* Light 300 */
 @font-face {
@@ -51,7 +53,6 @@ body {
 
 
 header {
-    width: 100vw;
     height: 110px;
 
     background-color: #0000004d;
@@ -76,6 +77,11 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
+}
+
+.nav__active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 32px;
 }
 
 .look-at {
@@ -107,7 +113,7 @@ header {
     border: 3px solid #FFF;
     border-radius: 29px;
 
-    line-height: 56px;
+    line-height: 50px;
     margin-bottom: 67px;
 }
 
@@ -138,4 +144,64 @@ header {
 
     right: 0px;
     bottom: 0;
+}
+
+
+.sec_2 {
+    height: 1362px;
+    position: relative;
+}
+
+.ustali {
+    margin: 77px auto 72px;
+
+    width: 780px;
+    height: 174px;
+    line-height: calc(174px / 3);
+
+    color: #283645;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.grey_back {
+    position: absolute;
+    top: 240px;
+    z-index: -1;
+}
+
+.triangle_grey {
+    width: auto;
+	height: 0px;
+
+	border-bottom: 100px solid #F2F2F2;
+	border-left: 100vw solid transparent;;
+}
+
+.cub_grey {
+    width: auto;
+    height: 945px;
+    background-color: rgb(230, 105, 105);
+    background-color: #F2F2F2;
+}
+
+.phones {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.phones__item img{
+    width: 300px;
+}
+
+.phones__text {
+    width: 240px;
+    font-size: 30px;
+    text-align: center;
+
+    margin: 0 auto;
+    position: relative;
+    top: -117px;
 }
