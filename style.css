@@ -83,6 +83,14 @@ header {
     line-height: 18px;
 }
 
+.navs nav:hover {
+    color: #D22856;
+}
+
+.navs nav:active {
+    color: hsla(0, 0%, 100%, 0.3);
+}
+
 .nav__active {
     border-bottom: 2px solid rgb(255, 255, 255);
     height: 32px;
@@ -113,12 +121,23 @@ header {
     text-align: center;
     color: white;
     font-size: 21px;
+    font-weight: 700;
     
     border: 3px solid #FFF;
     border-radius: 29px;
 
-    line-height: 50px;
+    line-height: 54px;
     margin-bottom: 67px;
+}
+
+.download:hover {
+    background-color: white;
+    color: #D22856;
+}
+.download:active {
+    background-color: white;
+    color: rgba(210, 40, 85, 0.3);;
+
 }
 
 .It3icons {
@@ -465,6 +484,15 @@ header {
     text-align: center;
     font-size: 24px;
     font-weight: 300;
+}
+
+.contacts__item_hover p:hover {
+    color: #283645;
+    text-decoration: underline;
+}
+
+.contacts__item_hover p:active {
+    color: #28364530;
 }
 
 .sec_6 {
