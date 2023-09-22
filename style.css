@@ -106,6 +106,7 @@ header {
     margin-left: 130px;
 }
 
+
 .look-at__text {
     color: white;
     font-family: 'Open-Sans';
@@ -240,6 +241,8 @@ header {
 }
 
 .effect {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     gap: 71px;
 
@@ -269,7 +272,6 @@ header {
 .effect__texts {
     width: 530px;
 
-    margin-right: 130px;
     margin-top: 90px;
 }
 
@@ -307,8 +309,9 @@ header {
 .citata-block {
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
+    gap: 104px;
 
     padding: 0 130px;
 }
@@ -484,7 +487,7 @@ header {
     text-align: center;
     font-size: 24px;
     font-weight: 300;
-}
+} 
 
 .contacts__item_hover p:hover {
     color: #283645;
