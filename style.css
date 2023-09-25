@@ -139,3 +139,8 @@ header {
     right: 0px;
     bottom: 0;
 }
+
+.second {
+    height: 100vh;
+    background-color: antiquewhite;
+}
