@@ -36,6 +36,9 @@
     font-weight: 700;
     font-style: normal;
 }
+:root {
+    --index : calc(1vw + 1vh);
+}
 
 body {
     font-family: 'Open-Sans';
@@ -50,35 +53,42 @@ body {
     background-size: cover;
     background-position: center;
     /* width: 100vw; */
-    height: 853px;
+    height: calc(var(--index) * 33);
+    padding-bottom: 50px;
 
     position: relative;
 }
 
 
 header {
-    height: 110px;
+    height: calc(var(--index) * 4.6);
 
     background-color: #0000004d;
+    /* background-color: #D22856; */
     color: white;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    margin-top: 27px;
+    margin-top: calc(var(--index) * 0.5);
     margin-left: 130px;
+}
+
+.logo img {
+    width: calc(var(--index) * 6);
 }
 
 .navs {
     display: flex;
-    gap: 78px;
+    gap: calc(var(--index) * 3.65);
 
     padding: 48px 0;
     margin-right: 130px;
 
-    font-size: 18px;
+    font-size: calc(var(--index) * 0.745);
     font-weight: 400;
     line-height: 18px;
 }
@@ -97,20 +107,19 @@ header {
 }
 
 .look-at {
-    width: 300px;
-    height: 500px;
+    width: calc(var(--index) * 12.3);
 
     /* background-color: rgba(148, 40, 40, 0.6); */
 
-    margin-top: 114px;
-    margin-left: 130px;
+    margin-top: calc(var(--index) * 4.6);
+    margin-left: calc(var(--index) * 5.4);
 }
 
 
 .look-at__text {
     color: white;
     font-family: 'Open-Sans';
-    font-size: 50px;
+    font-size: calc(var(--index) * 2.09);
     font-weight: 300;
     text-align: center;
 
@@ -118,17 +127,17 @@ header {
 }
 
 .download {
-    height: 56px;
+    height: calc(var(--index) * 2.3);
     text-align: center;
     color: white;
-    font-size: 21px;
+    font-size: calc(var(--index) * 0.87);
     font-weight: 700;
     
     border: 3px solid #FFF;
     border-radius: 29px;
 
-    line-height: 54px;
-    margin-bottom: 67px;
+    line-height: calc(var(--index) * 2.3);
+    margin-bottom: calc(var(--index) * 2.5);
 }
 
 .download:hover {
@@ -145,6 +154,11 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.It3icons img {
+    width: calc(var(--index) * 3);
+}
+
 .It3icons__1 {
     margin-right: 34px;
 }
@@ -153,10 +167,10 @@ header {
 }
 
 .dostup {
-    margin-top: 61px;
+    margin-top: calc(var(--index) * 2.6);
 
     color: white;
-    font-size: 18px;
+    font-size: calc(var(--index) * 0.75);
     font-weight: 300;
 
     text-align: center;
@@ -164,7 +178,7 @@ header {
 
 .hand img {
     position: absolute;
-    width: 1050px;
+    width: calc(var(--index) * 43.5);
 
     right: 0px;
     bottom: 0;
