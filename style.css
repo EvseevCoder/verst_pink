@@ -196,12 +196,11 @@ header {
     height: calc(var(--index) * 5.7);
     line-height: calc(calc(var(--index) * 5.7) / 3);
 
-    background-color: #D22856;
 
     color: #283645;
     text-align: center;
     font-weight: 300;
-    font-size: 50px;
+    font-size: calc(var(--index) * 1.62);
 }
 
 .grey_back {
@@ -227,26 +226,32 @@ header {
 
 .phones {
     display: flex;
-    gap: 20px;
+    gap: calc(var(--index) * 0.6);
     justify-content: center;
 }
 
+.phones__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .phones__item img{
-    width: 300px;
+    width: calc(var(--index) * 9.6);
 }
 
 .phones__text {
-    width: 240px;
-    font-size: 30px;
+    width: calc(var(--index) * 8);
+    font-size: calc(var(--index) * 0.95);
     text-align: center;
 
     margin: 0 auto;
     position: relative;
-    top: -117px;
+    top: calc(var(--index) * -3.8);
 }
 .phenes__p {
     position: relative;
-    top: -95px;
+    top: calc(var(--index) * -3);
     margin: 0 auto;
 
     width: 247px;
