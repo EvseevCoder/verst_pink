@@ -205,7 +205,7 @@ header {
 
 .grey_back {
     position: absolute;
-    top: 240px;
+    top: calc(var(--index) * 9);
     z-index: -1;
 }
 
